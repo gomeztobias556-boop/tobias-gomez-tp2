@@ -1,0 +1,27 @@
+body {
+    background-color: #fffde7;
+    min-height: 100vh;
+}
+
+header {
+    border-bottom: 2px solid #343a40;
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid #dee2e6;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: contain;
+}
+
+footer {
+    margin-top: 3rem;
+}
